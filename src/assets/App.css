@@ -1,0 +1,21 @@
+
+.div-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    position: sticky;
+    top: 0;
+}
+.nav-list .li-item{
+    display: flex;
+    align-items: center;
+}
+.li-item.li-item li{
+    list-style-type: none;
+    margin: 20px;
+    color: red;
+}
+.div-list:hover h2{
+    color: red;
+}
