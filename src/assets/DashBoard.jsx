@@ -10,11 +10,11 @@ const DashBoard = () => {
   const{cartItems}=userCart();
 
     const{logout}=userContext();
-    const nagigate=useNavigate();
+    const navigate=useNavigate();
 
     const logoutToken=()=>{
           logout();      
-          nagigate("/")
+          navigate("/")
     }
   return (
     <div className='div-list'>
